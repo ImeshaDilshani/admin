@@ -190,6 +190,7 @@
                                             <th style="text-align: center;" width="150px">Email</th>
                                         </tr>
                                         <tbody>
+						<!-- This is getting details from database-->
                                             <tr th:each="RegisterRequest : ${passengers}" >
                                                 <td th:text="$RegisterRequest.firstname"></td>
                                                 <td th:text="$RegisterRequest.lastname"></td>
